@@ -1,0 +1,290 @@
+[
+  {
+    "timestamp": "2026-11-24T15:06:17.366855",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:06:17.369646",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:06:17.400100",
+    "user_role": "intern",
+    "tool_name": "mcp_execute_refund",
+    "status": "BLOCKED",
+    "target_resource": "$1500.0 refund",
+    "details": "[ACTION BLOCKED] Role 'intern' has a maximum approval limit of $500.00. Requested action of $1,500.00 requires Manager or Executive sign-off."
+  },
+  {
+    "timestamp": "2026-11-24T15:06:17.418430",
+    "user_role": "intern",
+    "tool_name": "mcp_execute_refund",
+    "status": "ALLOWED",
+    "target_resource": "$350.0 refund",
+    "details": "Action authorized for role 'intern'"
+  },
+  {
+    "timestamp": "2026-11-24T15:06:17.437514",
+    "user_role": "manager",
+    "tool_name": "mcp_execute_refund",
+    "status": "ALLOWED",
+    "target_resource": "$5000.0 refund",
+    "details": "Action authorized for role 'manager'"
+  },
+  {
+    "timestamp": "2026-11-24T15:06:17.458361",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:06:17.479230",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:06:17.499344",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:06:17.515540",
+    "user_role": "manager",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT * FROM executive_salaries..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.018803",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT o.order_id, c.company_name, c.contact_phone, o.order_..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.043983",
+    "user_role": "intern",
+    "tool_name": "mcp_execute_refund",
+    "status": "ALLOWED",
+    "target_resource": "$200.0 refund",
+    "details": "Action authorized for role 'intern'"
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.065175",
+    "user_role": "manager",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT full_name, job_title, annual_salary_usd FROM executiv..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.088243",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.110360",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT customer_id, company_name, contact_email, contact_pho..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.133225",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT o.order_id, c.company_name, c.contact_phone, o.order_..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.159777",
+    "user_role": "intern",
+    "tool_name": "mcp_execute_refund",
+    "status": "ALLOWED",
+    "target_resource": "$250.0 refund",
+    "details": "Action authorized for role 'intern'"
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.179180",
+    "user_role": "intern",
+    "tool_name": "mcp_execute_refund",
+    "status": "BLOCKED",
+    "target_resource": "$900.0 refund",
+    "details": "[ACTION BLOCKED] Role 'intern' has a maximum approval limit of $500.00. Requested action of $900.00 requires Manager or Executive sign-off."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.203938",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT customer_id, company_name, contact_phone FROM custome..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.226158",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.249726",
+    "user_role": "manager",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT full_name, annual_salary_usd FROM executive_salaries;..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.275719",
+    "user_role": "intern",
+    "tool_name": "mcp_execute_refund",
+    "status": "ALLOWED",
+    "target_resource": "$500.0 refund",
+    "details": "Action authorized for role 'intern'"
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.293497",
+    "user_role": "intern",
+    "tool_name": "mcp_execute_refund",
+    "status": "BLOCKED",
+    "target_resource": "$500.01 refund",
+    "details": "[ACTION BLOCKED] Role 'intern' has a maximum approval limit of $500.00. Requested action of $500.01 requires Manager or Executive sign-off."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.312867",
+    "user_role": "manager",
+    "tool_name": "mcp_execute_refund",
+    "status": "ALLOWED",
+    "target_resource": "$50000.0 refund",
+    "details": "Action authorized for role 'manager'"
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.334526",
+    "user_role": "manager",
+    "tool_name": "mcp_execute_refund",
+    "status": "BLOCKED",
+    "target_resource": "$50000.01 refund",
+    "details": "[ACTION BLOCKED] Role 'manager' has a maximum approval limit of $50,000.00. Requested action of $50,000.01 requires Manager or Executive sign-off."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.374672",
+    "user_role": "admin",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT * FROM executive_salaries..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.398129",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT * FROM customers..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.422185",
+    "user_role": "unknown_guest",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'unknown_guest' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.448833",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT customer_id, company_name FROM customers..."
+  },
+  {
+    "timestamp": "2026-11-24T15:07:04.470772",
+    "user_role": "manager",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT * FROM executive_salaries..."
+  },
+  {
+    "timestamp": "2026-11-24T15:09:49.399997",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:09:49.431006",
+    "user_role": "manager",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT full_name, job_title, annual_salary_usd FROM executiv..."
+  },
+  {
+    "timestamp": "2026-11-24T15:09:49.462328",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT o.order_id, c.company_name, c.contact_phone, o.order_..."
+  },
+  {
+    "timestamp": "2026-11-24T15:11:35.284687",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT customer_id, company_name, contact_email, contact_pho..."
+  },
+  {
+    "timestamp": "2026-11-24T15:12:09.674370",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:13:11.198112",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "BLOCKED",
+    "target_resource": "executive_salaries",
+    "details": "[SECURITY ALERT: ACCESS DENIED] Role 'intern' is not authorized to query table 'executive_salaries'. This table is classified as TIER 3 (RESTRICTED). Privilege escalation attempt blocked."
+  },
+  {
+    "timestamp": "2026-11-24T15:14:41.339728",
+    "user_role": "intern",
+    "tool_name": "mcp_database_query",
+    "status": "ALLOWED",
+    "target_resource": "TIER_1_PUBLIC",
+    "details": "Query authorized for execution: SELECT o.order_id, c.company_name, c.contact_phone, o.order_..."
+  }
+]

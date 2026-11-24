@@ -1,0 +1,15 @@
+COMPANY OPERATING POLICY: CUSTOMER DISPUTES, REFUNDS & SLA TERMS
+
+1. DISPUTE & REFUND ELIGIBILITY:
+   - Any customer experiencing delivery delays or damaged shipments may request a refund within 14 calendar days of order creation.
+   - For orders under $500.00 USD, customer support specialists and interns are authorized to process standard compensation or initiate product re-shipment.
+   - For orders exceeding $500.00 USD, explicit Manager or Executive approval is mandatory before any financial refund transaction is dispatched.
+
+2. SERVICE LEVEL AGREEMENTS (SLA):
+   - Enterprise Tier Accounts: Guaranteed response time within 4 hours. Priority dispatch applies.
+   - Growth & Standard Tier Accounts: Standard response window within 24 hours.
+
+3. DISPUTE RESOLUTION PROTOCOL:
+   - Step 1: Verify order status in the central database.
+   - Step 2: Confirm refund eligibility against the $500 threshold.
+   - Step 3: Issue official resolution notice to the registered customer contact email.

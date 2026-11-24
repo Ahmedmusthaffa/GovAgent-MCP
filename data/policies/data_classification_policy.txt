@@ -1,0 +1,15 @@
+ENTERPRISE DATA GOVERNANCE & ACCESS CONTROL POLICY (UNITY CATALOG ALIGNED)
+
+1. DATA CLASSIFICATION TIERS:
+   - TIER 1 [PUBLIC / INTERNAL]:
+     - Tables: 'customers' (company_name, account_tier), 'orders' (order_id, status, order_amount).
+     - Permissions: Accessible by Intern, Support Analyst, Manager, and Admin roles.
+   
+   - TIER 2 [CONFIDENTIAL / PII]:
+     - Columns: 'contact_phone', 'contact_email'.
+     - Permissions: Must be partially masked (e.g., +1-555-****) when retrieved by Intern roles to prevent customer data harvesting.
+
+   - TIER 3 [RESTRICTED / PRIVILEGED]:
+     - Tables: 'executive_salaries', 'payroll', 'internal_secrets'.
+     - Permissions: STRICTLY RESTRICTED to Manager and Admin roles.
+     - Enforcement: Any unauthorized attempt by an Intern to query or extract Tier 3 data must be intercepted immediately by the Governance Gate, blocked with an explicit security alert, and written to the compliance audit log.
